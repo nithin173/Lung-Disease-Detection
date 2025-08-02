@@ -55,7 +55,7 @@ cd Lung-Disease-Detection
 ```
 - Now Download the trained model using link: 
 - https://drive.google.com/file/d/1A-PkuZ0ATG7Hu9PchY_kwcCljc3DByaM/view?usp=sharing
-- Then ope app.py file  in any development environment
+- To start the application, open the `app.py` file in your preferred development environment (e.g., VS Code, PyCharm, or Jupyter), and run the script.
 - Run the file 
 - The open the link which was visible in terminal
 - Then upload any X-Ray Image it will classify which disease it is.. 
