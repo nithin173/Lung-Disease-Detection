@@ -50,8 +50,8 @@ Technologies Used:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/lung-disease-detection-vit.git
-cd lung-disease-detection-vit
+git clone https://github.com/your-username/Lung-Disease-Detection.git
+cd Lung-Disease-Detection
 ```
 - Now Download the trained model using link: 
 - https://drive.google.com/file/d/1A-PkuZ0ATG7Hu9PchY_kwcCljc3DByaM/view?usp=sharing
