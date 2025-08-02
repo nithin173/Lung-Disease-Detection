@@ -1,6 +1,6 @@
-# 🫁 Lung Disease Detection from Chest X-rays using Vision Transformers (ViT) with 3D Reconstruction
+# 🫁 Lung Disease Detection from Chest X-rays using Vision Transformers (ViT)
 
-This project focuses on detecting lung diseases (such as pneumonia,tuberculosis, etc.) using chest X-ray images. It uses **Vision Transformers (ViT)** for classification and incorporates **3D image reconstruction** to enhance diagnostic accuracy.
+This project focuses on detecting lung diseases (such as pneumonia,tuberculosis, etc.) using chest X-ray images. It uses **Vision Transformers (ViT)** for classification.
 
 ---
 
@@ -18,7 +18,6 @@ This project focuses on detecting lung diseases (such as pneumonia,tuberculosis,
 
 This project aims to:
 - Leverage **Vision Transformers** for high-performance medical image classification.
-- Use spatial correlations in 2D chest X-rays to reconstruct a **3D volumetric view** of the lungs.
 - Improve diagnosis by capturing subtle features not easily seen in 2D images alone.
 
 ---
