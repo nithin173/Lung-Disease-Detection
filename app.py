@@ -12,7 +12,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # Load the model
 model = vit_b_16(weights=ViT_B_16_Weights.DEFAULT)
 model.heads.head = nn.Linear(model.heads.head.in_features, 4)  # change 4 if different
-model.load_state_dict(torch.load("D:/mini project/VIT/Model Frontend/best_lung_disease_vit.pth", map_location=device))
+model.load_state_dict(torch.load("best_lung_disease_vit.pth", map_location=device))
 model.eval()
 model.to(device)
 
@@ -49,3 +49,4 @@ def predict():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
